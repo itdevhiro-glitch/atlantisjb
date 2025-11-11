@@ -1,0 +1,4 @@
+.hidden { display:none; }
+.page.hidden { display:none; }
+.page { display:block; }
+.hidden-page{display:none}

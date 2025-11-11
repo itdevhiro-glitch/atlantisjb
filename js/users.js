@@ -1,9 +1,9 @@
 // users.js
 var Users = (function(){
   const DEFAULT_TEAM = [
-    { name: "Bima Adhitya", email: "bimaadhitya@atlantis.net", percent: 50, role: "admin" },
-    { name: "Rahmat Hidayat", email: "rahmathidayat@atlantis.net", percent: 20, role: "staff" },
-    { name: "Faisal Ramadhan", email: "faisalramadhan@atlantis.net", percent: 10, role: "staff" },
+    { name: "Bima Adhitya", email: "bimaadhitya@atlantis.net", percent: 25, role: "admin" },
+    { name: "Rahmat Hidayat", email: "rahmathidayat@atlantis.net", percent: 15, role: "staff" },
+    { name: "Faisal Ramadhan", email: "faisalramadhan@atlantis.net", percent: 15, role: "staff" },
   ];
   async function seedTeam(){
     if(!confirm('Seed team?')) return;

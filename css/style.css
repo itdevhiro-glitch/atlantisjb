@@ -2,3 +2,11 @@
 .page.hidden { display:none; }
 .page { display:block; }
 .hidden-page{display:none}
+
+
+@media (max-width: 1023px) {
+  
+    .overflow-x-auto table {
+        min-width: 600px; 
+    }
+}

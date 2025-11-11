@@ -14,7 +14,7 @@ var Auth = (function(){
       btnAuth.classList.add('hidden');
       const email = user.email;
       let role = 'viewer', percent = 0, name = email.split('@')[0];
-      if (email === 'bimaadhitya@atlantis.net') { role = 'admin'; percent = 50; name = 'Bima Adhitya'; }
+      if (email === 'bimaadhitya@atlantis.net') { role = 'admin'; percent = 25; name = 'Bima Adhitya'; }
       else if (email === 'rahmathidayat@atlantis.net') { role = 'staff'; percent = 20; name = 'Rahmat Hidayat'; }
       else if (email === 'faisalramadhan@atlantis.net') { role = 'staff'; percent = 10; name = 'Faisal Ramadhan'; }
       const usersRef = db.ref('users');
